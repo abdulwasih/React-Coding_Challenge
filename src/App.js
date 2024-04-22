@@ -4,6 +4,7 @@ import { useState } from "react";
 export default function App() {
   const [topic, setTopic] = useState("");
   const [topicList, setTopicList] = useState([]);
+  const handleSubmit = () => {};
 
   return (
     <div className="App">
